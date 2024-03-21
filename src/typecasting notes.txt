@@ -1,0 +1,30 @@
+type casting is when we convert one datatype to another datatype
+         there are two type casting
+              1.implicit typecasting
+              2.explicit typecasting
+      
+       1.Implicit typecasting
+                 when we try to convert smaller datatype to higher size datatype
+                      ex: 
+                         byte --> int
+                         
+                         byte b=12;
+                         int i=b;
+                         
+                  java will automaticaly typecasting here 
+                  
+        2.Explicit type Casting
+                  when we try to convert higher size datatype to lower size datatype
+                       ex:-
+                          int -->byte
+                          
+                          int i=234;
+                          byte b=(byte)i;
+                          
+                          here byte maximum size is 127 , but  we have value int value as 234 , so it will throw compile-time error , 
+                          
+                          (byte) i --> by this line we are saying whatever the value in int convert to byte 
+                          
+                          conversion happen 
+                               byte is -128 to 127
+                               so after 127 value will go to -128 to 0 to 127 , this step will repeat 

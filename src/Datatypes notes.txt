@@ -1,0 +1,19 @@
+Datatypes 
+
+    There are two types of datatypes 
+    
+    1.primitive data types    
+      *byte
+      *int
+      *short
+      *long
+      *char
+      *float
+      *double
+      *boolean
+    
+      
+    2.reference data type
+       *class
+       *string
+       *Array 
